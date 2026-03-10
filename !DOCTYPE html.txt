@@ -14,4 +14,11 @@
 </header>
 <nav>
 <ul>
-<li><a href="#learn">Learn Crochet
+<li><a href="#learn">Learn Crochet</a></li>
+<li><a href="#patterns">Patterns</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#tips">Tips</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
