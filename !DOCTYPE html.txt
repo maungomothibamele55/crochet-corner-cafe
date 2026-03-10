@@ -9,4 +9,9 @@
 
 <header>
 <h1>Crochet Corner Cafe</h1>
-<p>Learn crochet, explore patterns, and create adorable handmade
+
+<p>Learn crochet, explore patterns, and create adorable handmade designs!</p>
+</header>
+<nav>
+<ul>
+<li><a href="#learn">Learn Crochet
