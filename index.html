@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crochet Café — Home</title>
+
+  <!-- Bootstrap 5 CSS for layout and components -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+
+  <!-- Google Fonts — Pacifico and Nunito -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;600;700&display=swap"
+        rel="stylesheet" />
+
+  <!-- my own css file -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAVIGATION BAR ===== -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+
+      <!-- logo and site name -->
+      <a class="navbar-brand" href="index.html">
+        <img src="https://images.unsplash.com/photo-1615486511484-92e172cc4b0f?auto=format&fit=crop&w=42&h=42&q=80"
+             alt="colourful yarn" width="42" height="42" />
+        Crochet Café
+      </a>
+
+      <!-- hamburger button for small screens -->
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- nav links -->
+      <nav class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="inspiration.html">Inspiration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tutorial.html">Tutorials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </nav>
+  <!-- end navbar -->
+
+
+  <!-- ===== HERO BANNER ===== -->
+  <header>
+    <!-- large banner image at the top -->
+    <img class="hero-banner"
+         src="https://images.unsplash.com/photo-1615486511484-92e172cc4b0f?auto=format&fit=crop&w=1400&h=420&q=80"
+         alt="colourful crochet yarn balls in pink orange and yellow" />
+
+    <!-- text that sits on top of the banner image -->
+    <div class="hero-caption">
+      <h1>Welcome to Crochet Café</h1>
+      <p>
+        <img class="hero-icon"
+             src="https://images.unsplash.com/photo-1573217652761-8cc06a9de90e?auto=format&fit=crop&w=40&h=40&q=80"
+             alt="craft icon" />
+        a cozy little corner of the internet for people who love crochet
+        <img class="hero-icon"
+             src="https://images.unsplash.com/photo-1574887427561-d3d5d58c9273?auto=format&fit=crop&w=40&h=40&q=80"
+             alt="yarn icon" />
+      </p>
+    </div>
+  </header>
+  <!-- end hero -->
+
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+
+    <!-- intro section -->
+    <section class="container my-5 text-center fade-in">
+      <h2 class="section-title underline">what is crochet café?</h2>
+      <p class="lead mx-auto" style="max-width: 680px;">
+        Crochet Café is a beginner friendly website were you can learn how to crochet step by step.
+        we have tutorials to guide you, inspiration to motivate you, and a contact page were you
+        can share your projects too. its a fun and relaxing hobby that anyone can learn,
+        so come and explore!
+      </p>
+    </section>
+
+    <!-- explore cards section -->
+    <section class="container mb-5">
+      <h2 class="section-title fade-in">explore the site</h2>
+      <div class="row g-4 justify-content-center">
+
+        <!-- tutorials card -->
+        <div class="col-sm-6 col-lg-4 fade-in">
+          <article class="project-card">
+            <img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=600&h=260&q=80"
+                 alt="crochet hook and yarn close up" />
+            <div class="card-body">
+              <h3 class="card-title">Tutorials</h3>
+              <p>learn how to crochet with easy step by step guides. very beginner friendly and fun to follow!</p>
+              <a href="tutorial.html" class="btn-cozy">go to tutorials</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- inspiration card -->
+        <div class="col-sm-6 col-lg-4 fade-in">
+          <article class="project-card">
+            <img src="https://images.unsplash.com/photo-1574887427561-d3d5d58c9273?auto=format&fit=crop&w=600&h=260&q=80"
+                 alt="cute crochet projects and yarn" />
+            <div class="card-body">
+              <h3 class="card-title">Inspiration</h3>
+              <p>look at cute crochet projects and get motivated to start making your own. you will love it!</p>
+              <a href="inspiration.html" class="btn-cozy">get inspired</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- contact card -->
+        <div class="col-sm-6 col-lg-4 fade-in">
+          <article class="project-card">
+            <img src="https://images.unsplash.com/photo-1573217652761-8cc06a9de90e?auto=format&fit=crop&w=600&h=260&q=80"
+                 alt="handmade craft supplies" />
+            <div class="card-body">
+              <h3 class="card-title">Contact Us</h3>
+              <p>have a question or want to share your project? send us a message, we would love to hear from you!</p>
+              <a href="contact.html" class="btn-cozy">say hello</a>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+    <!-- end explore cards -->
+
+    <!-- quote banner -->
+    <section class="container mb-5 fade-in">
+      <div class="quote-banner">
+        <h2>"every stitch is a step forward"</h2>
+        <p class="mt-2 mb-4">
+          start your crochet journey today. you will be suprised by how much you can make!
+        </p>
+        <a href="tutorial.html" class="btn-cozy">start learning now</a>
+      </div>
+    </section>
+
+  </main>
+  <!-- end main content -->
+
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <img src="https://images.unsplash.com/photo-1615486511484-92e172cc4b0f?auto=format&fit=crop&w=30&h=30&q=80"
+         alt="crochet yarn" />
+    hosted by github. &copy; Crochet Café
+  </footer>
+
+
+  <!-- back to top button (hidden by default, shown by JS) -->
+  <button id="back-to-top" title="Back to top">&#8679;</button>
+
+
+  <!-- Bootstrap 5 JS (for navbar toggle and other features) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- my own javascript file -->
+  <script src="script.js"></script>
+
+</body>
+</html>
